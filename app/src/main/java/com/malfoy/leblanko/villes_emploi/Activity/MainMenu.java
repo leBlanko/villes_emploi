@@ -27,7 +27,9 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        toolbar = (Toolbar) findViewById(R.id.toolbar1);
+        //toolbar = (Toolbar) findViewById(R.id.toolbar1);
+        //setSupportActionBar(toolbar);
+
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
