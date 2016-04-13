@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="mainColor">#303030</color>
+    <color name="gray">#ACACAC</color>
+    <color name="background">#183D62</color>
+    <color name="white">#ffffff</color>
+    <color name="focusButton">#6fa0d3</color>
+    <!-- Pour les drawables -->
+    <color name="buttonColor1">#d2d2d2</color>
+    <color name="buttonColor2">#f8f9fa</color>
+    <color name="buttonColor3">#205081</color>
+    <color name="buttonColor4">#30659C</color>
+
 </resources>

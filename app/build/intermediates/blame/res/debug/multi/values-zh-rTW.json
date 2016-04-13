@@ -248,6 +248,25 @@
                         "endOffset": 1557
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1322,
+                    "endColumn": 57,
+                    "endOffset": 1375
+                },
+                "from": {
+                    "file": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rTW/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 57,
+                        "endOffset": 238
+                    }
+                }
             }
         ]
     }

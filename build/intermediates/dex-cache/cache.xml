@@ -9,13 +9,6 @@
         <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_8a4ebaa36d98f378bf028a6bd2f1f59f052246ad.jar" />
     </item>
     <item
-        jar="/Users/leBlanko/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_1285d3b9486a067af00501385051d8fafa3a1cb0.jar" />
-    </item>
-    <item
         jar="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -23,11 +16,39 @@
         <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_62d05c018338810266780df95cb20c1f243f6408.jar" />
     </item>
     <item
+        jar="/Users/leBlanko/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_05dcca09a5427a828b2462e8967044f810a08751.jar" />
+    </item>
+    <item
+        jar="/Users/leBlanko/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_1285d3b9486a067af00501385051d8fafa3a1cb0.jar" />
+    </item>
+    <item
         jar="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="1821601ddbec5ff125653097812823388700af74">
         <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/com.android.support-design-22.2.1_8181aaf4667ebedc4645e009f1cc4269fba58bc5.jar" />
+    </item>
+    <item
+        jar="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.0.0_f387b86328ddbd85b2701d397c5e1fad0c010388.jar" />
+    </item>
+    <item
+        jar="/Users/leBlanko/Documents/Android/Villes-Emploi/app/libs/twitter4j-core-4.0.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f4ac5989c7be37249dfe310bf78ba69773ebce2d">
+        <dex dex="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.4_8bc1d1306319680d4777d49e81fef8e7cf5c73da.jar" />
     </item>
     <item
         jar="/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"

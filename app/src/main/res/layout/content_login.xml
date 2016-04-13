@@ -8,8 +8,115 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.malfoy.leblanko.villes_emploi.Login"
-    tools:showIn="@layout/activity_login">
+    tools:context=".Activity.Login"
+    tools:showIn="@layout/activity_login"
+    >
+
+    <LinearLayout
+        android:id="@+id/loginForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/formMargin"
+        android:layout_marginRight="@dimen/formMargin"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/logo"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_top"
+                android:hint="@string/email"
+                android:textColorHint="@color/gray"
+                android:layout_marginTop="-2dp"
+                android:padding="10dp"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/email"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bottom"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:textColorHint="@color/gray"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/password"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/submitLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submitLogin"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_default"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_default"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+
+
+        <TextView android:id="@+id/forgotpassword_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/forgotpassword_question"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="16dip"/>
+
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/signup_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/signup_question"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:textSize="16dip"/>
 
 </RelativeLayout>

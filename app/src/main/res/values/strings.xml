@@ -1,4 +1,101 @@
 <resources>
     <string name="app_name">Villes-Emploi</string>
     <string name="action_settings">Settings</string>
+    <string name="facebook_id">1535030600132171</string>
+    <string name="email">Email </string>
+    <string name="password">Mot de passe </string>
+    <string name="submitLogin">Se connecter</string>
+    <string name="submitInscription">S\'inscrire</string>
+    <string name="signup_question">Pas encore de compte?</string>
+    <string name="forgotpassword_question">Mot de passe oublié?</string>
+    <string name="errorEmail">Veuillez entrer un email correct</string>
+    <string name="errorPassword">Le mot de passe doit faire minimum 5 caractères</string>
+    <string name="errorVerifPassword">Les mots de passe ne sont pas identiques</string>
+    <string name="errorAskS">Veuillez remplir tous les champs</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="prenom">Prenom </string>
+    <string name="nom">Nom </string>
+    <string name="pseudo">Pseudo </string>
+    <string name="verifPassword">Vérification </string>
+    <string name="CP">Code Postal </string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="askS">Vous êtes?</string>
+    <string name="inscription">Inscription</string>
+    <string name="progressLogin">Authentification...</string>
+    <string name="progressInscription">Création du compte...</string>
+    <string name="com_facebook_loginview_log_out_button">Se deconnecter</string>
+    <string name="com_facebook_loginview_log_in_button">Se connecter</string>
+    <string name="com_facebook_loginview_log_in_button_long">S\'enregistrer avec Facebook</string>
+    <string name="title_activity_query_test">QueryTest</string>
+    <string name="categorie1">Profil</string>
+    <string name="categorie2">Offres</string>
+    <string name="categorie3">Ma Tribu</string>
+    <string name="categorie4">Services</string>
+
+
+    <!-- Les questions et reponses du questionnaire TRICAM (à recuperer par la suite en BDD)-->
+
+    <!-- Question1: Checkbox, autant de choix que l'on veut -->
+    <string name="partie1_question">Quelles sont vos préférences?</string>
+    <string name="partie1_description">Le premier jeu de questions portent sur vos préférences, Vous pouvez cocher autant de réponses que vous voulez</string>
+    <string name="q1_r1">Jouer aux echecs</string>
+    <string name="q1_r2">Faire du sport</string>
+    <string name="q1_r3">Lire des livres scientifiques</string>
+    <string name="q1_r4">Ecouter de la musique</string>
+    <string name="q1_r5">Diriger une association</string>
+    <string name="q1_r6">Faire des mots croisés</string>
+    <string name="q1_r7">Faire une randonnée</string>
+    <string name="q1_r8">Lire un roman ou une BD</string>
+    <string name="q1_r9">Jouer dans une pièce de théâtre</string>
+    <string name="q1_r10">Partir en week-end à l\'étranger</string>
+    <string name="q1_r11">Assiter à une soirée de gala</string>
+    <string name="q1_r12">Rendre visite à la famille</string>
+
+    <!--Question2: 2eme vague preferences -->
+    <string name="q2_r1">Faire du bricolage</string>
+    <string name="q2_r2">Rechercher de l\'information sur internet</string>
+    <string name="q2_r3">Résoudre un conflit de voisinage</string>
+    <string name="q2_r4">Organiser une fête</string>
+    <string name="q2_r5">Discuter avec des artistes</string>
+    <string name="q2_r6">Aider les autres</string>
+    <string name="q2_r7">Appliquer des consignes précises</string>
+    <string name="q2_r8">Relever des défis</string>
+    <string name="q2_r9">Gérer des dossiers</string>
+    <string name="q2_r10">Résoudre des problèmes compliqués</string>
+    <string name="q2_r11">Apporter ses propres idées</string>
+    <string name="q2_r12">Utiliser des outils et/ou des machines</string>
+
+    <!--Partie 2 : choix adjectifs -->
+    <string name="partie2_question">Comment vous voyez-vous?</string>
+    <string name="partie2_description">Il s\'agit maintenant de choisir entre deux adjectifs celui qui vous correspondra le mieux</string>
+    <string name="p2_q1_r1">Créatif</string>
+    <string name="p2_q1_r1_2">Ordonné</string>
+    <string name="p2_q1_r2">Matérialiste</string>
+    <string name="p2_q1_r2_2">Généreux</string>
+    <string name="p2_q1_r3">Rationnel</string>
+    <string name="p2_q1_r3_2">Aventurier</string>
+    <string name="p2_q1_r4">Pratique</string>
+    <string name="p2_q1_r4_2">Inquiet</string>
+    <string name="p2_q1_r5">Fonceur</string>
+    <string name="p2_q1_r5_2">Imaginatif</string>
+    <string name="p2_q1_r6">Fier</string>
+    <string name="p2_q1_r6_2">Audacieux</string>
+    <string name="p2_q1_r7">Précis</string>
+    <string name="p2_q1_r7_2">Conciliant</string>
+    <string name="p2_q1_r8">Econome</string>
+    <string name="p2_q1_r8_2">Indulgent</string>
+    <string name="p2_q1_r9">Réfléchi</string>
+    <string name="p2_q1_r9_2">Méthodique</string>
+    <string name="title_activity_check_box__page_test">CheckBox_PageTest</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_offres">Offres</string>
+    <string name="title_activity_tribu">Tribu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
