@@ -11,7 +11,6 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <!--
@@ -22,22 +21,29 @@
             />
           -->
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tabLayout"
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabMode="fixed"
-            app:tabGravity="fill">
+            android:background="@color/focusButton">
 
-        </android.support.design.widget.TabLayout>
+        </android.support.v4.view.ViewPager>
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:background="@color/buttonColor4"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
-    </android.support.v4.view.ViewPager>
+    </android.support.design.widget.TabLayout>
+
 
 </RelativeLayout>

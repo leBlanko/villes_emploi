@@ -4,9 +4,40 @@
     android:layout_height="match_parent"
     tools:context="com.malfoy.leblanko.villes_emploi.Fragment.Profil">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/categorie1" />
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/titleProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleProfil"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h2"/>
+
+         <WebView
+             android:id="@+id/descProfil"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:text="@string/descProfil"
+             android:textColor="@color/white"
+             android:textSize="@dimen/h3" />
+
+    </LinearLayout>
+
 
 </FrameLayout>
