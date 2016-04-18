@@ -48,6 +48,10 @@
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/anim/right_to_left2.xml"
     },
     {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/anim/button_elevation.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/anim/button_elevation.xml"
+    },
+    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/anim/right_to_left.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/anim/right_to_left.xml"
     },

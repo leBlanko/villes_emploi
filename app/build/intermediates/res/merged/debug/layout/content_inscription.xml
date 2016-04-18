@@ -168,6 +168,7 @@
             android:id="@+id/submitInscription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:elevation="10dp"
             android:text="@string/submitInscription"
             android:textColor="@color/white"
             android:padding="10dp"

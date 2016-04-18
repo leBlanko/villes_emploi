@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/menu/drawer_menu.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/menu/drawer_menu.xml"
+    },
+    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/menu/menu_login.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/menu/menu_login.xml"
     }

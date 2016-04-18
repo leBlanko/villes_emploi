@@ -13,5 +13,6 @@
     <color name="buttonColor2">#f8f9fa</color>
     <color name="buttonColor3">#205081</color>
     <color name="buttonColor4">#30659C</color>
+    <color name="skill">#3498db</color>
 
 </resources>

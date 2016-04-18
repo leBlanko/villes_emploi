@@ -42,10 +42,30 @@
     <string name="title_activity_offres">Offres</string>
     <string name="title_activity_tribu">Tribu</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_main_menu"> </string>
+
+    <string name="home">Accueil</string>
+    <string name="infos">Modifier mes informations</string>
+    <string name="offres">Mes offres enregistrées</string>
+
+    <string name="prenomProfil">Tony</string>
+    <string name="nomProfil">Malfoy</string>
+    <string name="metier">Développeur Android</string>
+    <string name="mat1">JAVA</string>
+    <string name="mat2">XML</string>
+    <string name="mat3">PHP</string>
+
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <string name="updata_data">Updata data fragment</string>
+    <string name="mes_offres">Mes offres fragment</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_activity_mes_offres">MesOffres</string>
 
 
 </resources>
