@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="best_words_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="head_titles">
+        <item name="head_strong_point">Mes points forts</item>
+        <item name="head_best_words">Mes verbes préférés</item>
+        <item name="head_better_task">Les tâches où j\'excelle</item>
+        <item name="head_personnal_advice">Conseils personnels</item>
+        <item name="head_coach">Mon coach</item>
+    </string-array>
+    <string-array name="strong_point_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -298,6 +315,7 @@
     <string name="app_name">Villes-Emploi</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="askS">Vous êtes?</string>
+    <string name="back">Retour</string>
     <string name="categorie1">Profil</string>
     <string name="categorie2">Offres</string>
     <string name="categorie3">Ma Tribu</string>
@@ -339,7 +357,7 @@
     <string name="mat1">JAVA</string>
     <string name="mat2">XML</string>
     <string name="mat3">PHP</string>
-    <string name="mes_offres">Mes offres fragment</string>
+    <string name="mes_offres">Mes offres</string>
     <string name="messenger_send_button_text">Send</string>
     <string name="metier">Développeur Android</string>
     <string name="nom">Nom </string>
@@ -365,7 +383,7 @@
     <string name="title_activity_query_test">QueryTest</string>
     <string name="title_activity_tribu">Tribu</string>
     <string name="title_activity_update_data">UpdateData</string>
-    <string name="updata_data">Updata data fragment</string>
+    <string name="updata_data">Updata data</string>
     <string name="verifPassword">Vérification </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

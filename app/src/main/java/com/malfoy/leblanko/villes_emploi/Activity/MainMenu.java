@@ -1,5 +1,6 @@
 package com.malfoy.leblanko.villes_emploi.Activity;
 
+import android.app.ExpandableListActivity;
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
@@ -11,13 +12,19 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ExpandableListView;
 
+import com.malfoy.leblanko.villes_emploi.ExpandAdapter;
 import com.malfoy.leblanko.villes_emploi.Fragment.Offres;
 import com.malfoy.leblanko.villes_emploi.Fragment.Profil;
 import com.malfoy.leblanko.villes_emploi.Fragment.Services;
 import com.malfoy.leblanko.villes_emploi.Fragment.Tribu;
 import com.malfoy.leblanko.villes_emploi.R;
 import com.malfoy.leblanko.villes_emploi.ViewPagerAdapter;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class MainMenu extends AppCompatActivity {
 

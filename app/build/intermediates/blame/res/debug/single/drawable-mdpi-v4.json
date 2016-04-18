@@ -230,5 +230,9 @@
     {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_tooltip_blue_topnub.png",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable-mdpi-v4/com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_back_arrow.png",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable-mdpi/ic_back_arrow.png"
     }
 ]

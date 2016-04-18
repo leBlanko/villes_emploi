@@ -97,7 +97,7 @@ ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:41:27-74
 activity#com.malfoy.leblanko.villes_emploi.Activity.UpdateData
-ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:44:9-47:47
+ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:44:9-47:46
 	android:label
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:46:13-63
 	android:theme

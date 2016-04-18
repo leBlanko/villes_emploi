@@ -44,7 +44,7 @@
         <activity
             android:name=".Activity.UpdateData"
             android:label="@string/title_activity_update_data"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".Activity.MesOffres"
             android:label="@string/title_activity_mes_offres"

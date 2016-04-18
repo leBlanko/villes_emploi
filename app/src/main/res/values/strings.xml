@@ -58,8 +58,31 @@
     <string name="drawer_open">Drawer open</string>
     <string name="drawer_close">Drawer close</string>
 
-    <string name="updata_data">Updata data fragment</string>
-    <string name="mes_offres">Mes offres fragment</string>
+    <string name="updata_data">Updata data</string>
+    <string name="mes_offres">Mes offres</string>
+
+    <string name="back">Retour</string>
+
+    <string-array name="head_titles">
+        <item name="head_strong_point">Mes points forts</item>
+        <item name="head_best_words">Mes verbes préférés</item>
+        <item name="head_better_task">Les tâches où j\'excelle</item>
+        <item name="head_personnal_advice">Conseils personnels</item>
+        <item name="head_coach">Mon coach</item>
+    </string-array>
+
+    <string-array name="strong_point_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="best_words_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+
 
 
     <!-- TODO: Remove or change this placeholder text -->
