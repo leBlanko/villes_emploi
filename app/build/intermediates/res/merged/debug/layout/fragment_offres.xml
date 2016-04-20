@@ -4,10 +4,38 @@
     android:layout_height="match_parent"
     tools:context="com.malfoy.leblanko.villes_emploi.Fragment.Offres">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/categorie2" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_offres"
+            android:textSize="@dimen/h2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"/>
+
+        <WebView
+            android:id="@+id/descOffres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h3" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
 
 </FrameLayout>

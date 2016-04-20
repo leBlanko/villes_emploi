@@ -47,21 +47,10 @@ public class Profil extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        //L1 = new ArrayList<String>();
-        //l1 = getResources().getStringArray(R.array.strong_point_values);
-        /*for(String title : l1)
-        {
-            L1.add(title);
-        }
-
-        ChildList.put(Headings.get(0), L1);*/
-
         View view = inflater.inflate(R.layout.fragment_profil, container, false);
         descView = (WebView) view.findViewById(R.id.descProfil);
         descView.setBackgroundColor(getResources().getColor(R.color.focusButton));
         justifyWebView(descView, R.string.descProfil);
-
 
         expandableListView = (ExpandableListView) view.findViewById(R.id.expand_1);
         Headings = new ArrayList<String>();
@@ -129,7 +118,6 @@ public class Profil extends Fragment {
 
         ExpandAdapter expandAdapter = new ExpandAdapter(container.getContext(),Headings,ChildList);
         expandableListView.setAdapter(expandAdapter);
-
 
         return view;
     }

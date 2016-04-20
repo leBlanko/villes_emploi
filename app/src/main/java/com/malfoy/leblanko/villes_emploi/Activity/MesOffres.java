@@ -40,6 +40,7 @@ public class MesOffres extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case android.R.id.home:
+                setResult(-1); //On previent qu'on a fait un back
                 finish();
                 return true;
         }

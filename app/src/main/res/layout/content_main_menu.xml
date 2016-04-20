@@ -9,11 +9,6 @@
     android:id="@+id/drawer_layout"
     tools:context="com.malfoy.leblanko.villes_emploi.Activity.MainMenu">
 
-    <!-- <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/main_container"/> -->
-
         <!-- Le menu de gauche -->
         <android.support.design.widget.NavigationView
             android:id="@+id/navigation_view"

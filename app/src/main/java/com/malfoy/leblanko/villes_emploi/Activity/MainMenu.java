@@ -92,12 +92,10 @@ public class MainMenu extends AppCompatActivity {
                     case R.id.offresDrawer:
                         Intent mesOffresIntent = new Intent(MainMenu.this, MesOffres.class);
                         startActivity(mesOffresIntent);
-                        drawerLayout.closeDrawers();
                         break;
                     case R.id.infosDrawer:
                         Intent updateDataIntent = new Intent(MainMenu.this, UpdateData.class);
                         startActivity(updateDataIntent);
-                        drawerLayout.closeDrawers();
                         break;
                 }
                 return true;
@@ -110,6 +108,13 @@ public class MainMenu extends AppCompatActivity {
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         actionBarDrawerToggle.syncState();
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(requestCode != -1) //BACK TO
+        {
+            drawerLayout.closeDrawers();
+        }
     }
 
 

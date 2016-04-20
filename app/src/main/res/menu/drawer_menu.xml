@@ -22,5 +22,25 @@
 
     </group>
 
+    <item
+        android:id="@+id/title_cvmap"
+        android:title="@string/title_cvmap">
+
+        <menu>
+
+            <item
+                android:id="@+id/show_cvmap"
+                android:icon="@drawable/show_cvmap"
+                android:title="@string/show_cvmap"/>
+
+            <item
+                android:id="@+id/update_cvmap"
+                android:icon="@drawable/update_cvmap"
+                android:title="@string/update_cvmap"/>
+
+        </menu>
+
+
+    </item>
 
 </menu>

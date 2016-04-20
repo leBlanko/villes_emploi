@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/logo_annonce"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:src="@drawable/adecco"/>
+
+
+    <TextView
+        android:id="@+id/titre_annonce"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/logo_annonce"
+        android:text="Annonce X"
+        android:textSize="@dimen/h3"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/date_annonce"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/logo_annonce"
+        android:text="Ajouté le X"
+        android:textSize="@dimen/h4"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/ville_annonce"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/titre_annonce"
+        android:text="Ville X"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h4"
+        android:textStyle="normal"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/date_annonce"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp"/>
+
+</RelativeLayout>

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="best_words_values">
-        <item>100</item>
-        <item>200</item>
-        <item>300</item>
+    <string-array name="annonces_city">
+        <item>Calais</item>
+        <item>Bruay</item>
+        <item>Lens</item>
+        <item>Dunkerque</item>
+        <item>Boulogne</item>
+        <item>Lille</item>
+    </string-array>
+    <string-array name="annonces_dates">
+        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 20/05/2016</item>
+    </string-array>
+    <string-array name="annonces_titles">
+        <item>Annonce 1</item>
+        <item>Annonce 2</item>
+        <item>Annonce 3</item>
+        <item>Annonce 4</item>
+        <item>Annonce 5</item>
+        <item>Annonce 6</item>
     </string-array>
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
@@ -11,11 +30,6 @@
         <item name="head_better_task">Les tâches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
         <item name="head_coach">Mon coach</item>
-    </string-array>
-    <string-array name="strong_point_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -139,6 +153,7 @@
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="headerLayout"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Params"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
@@ -254,6 +269,8 @@
     <dimen name="h1">40sp</dimen>
     <dimen name="h2">25sp</dimen>
     <dimen name="h3">15sp</dimen>
+    <dimen name="h4">12sp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="navigation_elevation">12dp</dimen>
     <dimen name="navigation_icon_padding">32dp</dimen>
     <dimen name="navigation_icon_size">24dp</dimen>
@@ -282,6 +299,7 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
@@ -316,10 +334,9 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="askS">Vous êtes?</string>
     <string name="back">Retour</string>
-    <string name="categorie1">Profil</string>
+    <string name="categorie1">CVMap</string>
     <string name="categorie2">Offres</string>
-    <string name="categorie3">Ma Tribu</string>
-    <string name="categorie4">Services</string>
+    <string name="categorie3">Candidatures</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
@@ -336,6 +353,12 @@
     <string name="com_facebook_send_button_text">Send</string>
     <string name="com_facebook_share_button_text">Share</string>
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="descOffres">
+        Les offres proposées correspondent au profil rempli que vous pouvez completer ICI.
+    </string>
+    <string name="descOffres2">
+        Vous avez également la possibilité d\'élargir vos paramètres de recherches dans la barre d\'outils ci-dessus.
+    </string>
     <string name="descProfil">
         Trouver un chemin prometteur, confirmer des choix d’orientation,préparer un entretien de sélection ou d’embauche….Autant d’occasions où bien se connaître est essentiel.
     </string>
@@ -369,6 +392,7 @@
     <string name="progressInscription">Création du compte...</string>
     <string name="progressLogin">Authentification...</string>
     <string name="pseudo">Pseudo </string>
+    <string name="show_cvmap">Voir mon CVMap</string>
     <string name="signup_question">Pas encore de compte?</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="submitInscription">S\'inscrire</string>
@@ -378,12 +402,15 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_main_menu"> </string>
     <string name="title_activity_mes_offres">MesOffres</string>
-    <string name="title_activity_offres">Offres</string>
+    <string name="title_activity_offres">Mes offres</string>
     <string name="title_activity_profil">Profil</string>
     <string name="title_activity_query_test">QueryTest</string>
+    <string name="title_activity_services">Services</string>
     <string name="title_activity_tribu">Tribu</string>
     <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_cvmap">Mon CVMap</string>
     <string name="updata_data">Updata data</string>
+    <string name="update_cvmap">Modifier mon CVMap</string>
     <string name="verifPassword">Vérification </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
