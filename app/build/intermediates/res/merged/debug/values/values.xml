@@ -17,12 +17,12 @@
         <item>Ajouté le 20/05/2016</item>
     </string-array>
     <string-array name="annonces_titles">
-        <item>Annonce 1</item>
-        <item>Annonce 2</item>
-        <item>Annonce 3</item>
-        <item>Annonce 4</item>
-        <item>Annonce 5</item>
-        <item>Annonce 6</item>
+        <item>Développeur PHP/HTML</item>
+        <item>Integrateur Web</item>
+        <item>Développeur JS/JEE</item>
+        <item>Développeur IOS</item>
+        <item>Chef de projet informatique</item>
+        <item>Développeur Android</item>
     </string-array>
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
@@ -354,7 +354,7 @@
     <string name="com_facebook_share_button_text">Share</string>
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <string name="descOffres">
-        Les offres proposées correspondent au profil rempli que vous pouvez completer ICI.
+        Les offres proposées correspondent au profil rempli que vous pouvez completer
     </string>
     <string name="descOffres2">
         Vous avez également la possibilité d\'élargir vos paramètres de recherches dans la barre d\'outils ci-dessus.
@@ -405,8 +405,11 @@
     <string name="title_activity_offres">Mes offres</string>
     <string name="title_activity_profil">Profil</string>
     <string name="title_activity_query_test">QueryTest</string>
+    <string name="title_activity_search_settings">SearchSettings</string>
     <string name="title_activity_services">Services</string>
+    <string name="title_activity_show_cvmap">ShowCVMap</string>
     <string name="title_activity_tribu">Tribu</string>
+    <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_update_data">UpdateData</string>
     <string name="title_cvmap">Mon CVMap</string>
     <string name="updata_data">Updata data</string>

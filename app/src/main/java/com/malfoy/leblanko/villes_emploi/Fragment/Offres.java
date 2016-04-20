@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.Button;
 
+import com.malfoy.leblanko.villes_emploi.MyWebViewClient;
 import com.malfoy.leblanko.villes_emploi.OffreObject;
 import com.malfoy.leblanko.villes_emploi.R;
 import com.malfoy.leblanko.villes_emploi.RecyclerAdapter;
@@ -22,7 +23,7 @@ import java.util.ArrayList;
  */
 public class Offres extends Fragment {
 
-
+    private View view;
     private WebView descView;
     private RecyclerView recyclerView;
     private RecyclerView.Adapter recyclerViewAdapter;
@@ -38,11 +39,11 @@ public class Offres extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_offres, container, false);
+        view = inflater.inflate(R.layout.fragment_offres, container, false);
 
         descView = (WebView) view.findViewById(R.id.descOffres);
         descView.setBackgroundColor(getResources().getColor(R.color.focusButton));
-        justifyWebView(descView, R.string.descOffres, R.string.descOffres2);
+        justifyWebViewAndAddLink(descView, R.string.descOffres, R.string.descOffres2);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
@@ -68,8 +69,8 @@ public class Offres extends Fragment {
         return view;
     }
 
-    //Methode qui va permettre de justifier le texte dans la vue
-    public void justifyWebView(WebView webView, int id, int id2)
+    //Methode qui va permettre de justifier le texte dans la vue principalement
+    public void justifyWebViewAndAddLink(WebView webView, int id, int id2)
     {
         String text;
         String getDesc = getResources().getString(id);
@@ -78,9 +79,13 @@ public class Offres extends Fragment {
         text = "<html><body><p align=\"justify\" style=\"color:white;\" >";
         text+= getDesc;
         //Il faut ici faire le lien vers le updateCVMAP
+        text+= " <a href=\"activity://updatecvmap\">ici.</a> ";
         text+= getDesc2;
         text+= "</p></body></html>";
         webView.loadData(text, "text/html; charset=UTF-8",null);
+
+        //Il faut activer le lien vers une autre activité
+        webView.setWebViewClient(new MyWebViewClient(view.getContext()));
     }
 
 }

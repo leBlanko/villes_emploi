@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher2"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
@@ -40,6 +40,7 @@
         <activity
             android:name="com.malfoy.leblanko.villes_emploi.Activity.MainMenu"
             android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,6 +55,18 @@
         <activity
             android:name="com.malfoy.leblanko.villes_emploi.Activity.MesOffres"
             android:label="@string/title_activity_mes_offres"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.ShowCVMap"
+            android:label="@string/title_activity_show_cvmap"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.UpdateCVMap"
+            android:label="@string/title_activity_update_cvmap"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.SearchSettings"
+            android:label="@string/title_activity_search_settings"
             android:theme="@style/AppTheme" />
     </application>
 

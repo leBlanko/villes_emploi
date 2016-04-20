@@ -12,7 +12,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 
 import com.malfoy.leblanko.villes_emploi.ExpandAdapter;
 import com.malfoy.leblanko.villes_emploi.Fragment.Offres;
@@ -97,8 +99,26 @@ public class MainMenu extends AppCompatActivity {
                         Intent updateDataIntent = new Intent(MainMenu.this, UpdateData.class);
                         startActivity(updateDataIntent);
                         break;
+                    case R.id.show_cvmap:
+                        Intent showCVMap = new Intent(MainMenu.this, ShowCVMap.class);
+                        startActivity(showCVMap);
+                        break;
+                    case R.id.update_cvmap:
+                        Intent updateCVMap = new Intent(MainMenu.this, UpdateCVMap.class);
+                        startActivity(updateCVMap);
+                        break;
                 }
                 return true;
+            }
+        });
+
+
+        TextView tv= (TextView) findViewById(R.id.search_settings);
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToSettings = new Intent(MainMenu.this, SearchSettings.class);
+                startActivity(goToSettings);
             }
         });
 
@@ -115,6 +135,11 @@ public class MainMenu extends AppCompatActivity {
         {
             drawerLayout.closeDrawers();
         }
+    }
+
+    public void perform_action(View v)
+    {
+
     }
 
 

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 
 import com.malfoy.leblanko.villes_emploi.ExpandAdapter;
 import com.malfoy.leblanko.villes_emploi.R;

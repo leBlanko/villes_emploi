@@ -37,7 +37,7 @@
         Trouver un chemin prometteur, confirmer des choix d’orientation,préparer un entretien de sélection ou d’embauche….Autant d’occasions où bien se connaître est essentiel.
     </string>
     <string name="descOffres">
-        Les offres proposées correspondent au profil rempli que vous pouvez completer ICI.
+        Les offres proposées correspondent au profil rempli que vous pouvez completer
     </string>
     <string name="descOffres2">
         Vous avez également la possibilité d\'élargir vos paramètres de recherches dans la barre d\'outils ci-dessus.
@@ -79,14 +79,14 @@
         <item name="head_personnal_advice">Conseils personnels</item>
         <item name="head_coach">Mon coach</item>
     </string-array>
-    
+
     <string-array name="annonces_titles">
-        <item>Annonce 1</item>
-        <item>Annonce 2</item>
-        <item>Annonce 3</item>
-        <item>Annonce 4</item>
-        <item>Annonce 5</item>
-        <item>Annonce 6</item>
+        <item>Développeur PHP/HTML</item>
+        <item>Integrateur Web</item>
+        <item>Développeur JS/JEE</item>
+        <item>Développeur IOS</item>
+        <item>Chef de projet informatique</item>
+        <item>Développeur Android</item>
     </string-array>
 
     <string-array name="annonces_city">
@@ -108,11 +108,13 @@
     </string-array>
 
 
-
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_update_data">UpdateData</string>
     <string name="title_activity_mes_offres">MesOffres</string>
+    <string name="title_activity_show_cvmap">ShowCVMap</string>
+    <string name="title_activity_update_cvmap">UpdateCVMap</string>
+    <string name="title_activity_search_settings">SearchSettings</string>
 
 
 </resources>
