@@ -15,4 +15,10 @@
     <color name="buttonColor4">#30659C</color>
     <color name="skill">#3498db</color>
 
+    <color name="background_color1">#ecf0f1</color>
+    <color name="background_colorDark">#4F4F4F</color>
+    <color name="toolbar_color1">#1F1F1F</color>
+    <color name="bottom_menu_color1">#3B3B3B</color>
+    <color name="font_color1">#262626</color>
+
 </resources>

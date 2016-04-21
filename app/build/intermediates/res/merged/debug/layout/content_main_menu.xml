@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:background="@color/buttonColor4"
+            android:background="@color/bottom_menu_color1"
             app:menu="@menu/drawer_menu"
             app:headerLayout="@layout/profil_layout_header">
 
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="48dp"
-                android:background="@color/focusButton">
+                android:background="@color/background_color1">
 
             </android.support.v4.view.ViewPager>
 
@@ -60,9 +60,11 @@
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/buttonColor4"
             app:tabMode="fixed"
             app:tabGravity="fill"
+            app:tabIndicatorColor="@color/toolbar_color1"
+            app:tabIndicatorHeight="5dp"
+            app:tabBackground="@color/bottom_menu_color1"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">

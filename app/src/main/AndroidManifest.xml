@@ -60,7 +60,7 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Activity.SearchSettings"
-            android:label="@string/title_activity_search_settings"
+            android:label=""
             android:theme="@style/AppTheme"></activity>
     </application>
 

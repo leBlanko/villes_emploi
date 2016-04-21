@@ -1,6 +1,5 @@
 package com.malfoy.leblanko.villes_emploi.Activity;
 
-import android.app.ExpandableListActivity;
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
@@ -13,20 +12,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.malfoy.leblanko.villes_emploi.ExpandAdapter;
 import com.malfoy.leblanko.villes_emploi.Fragment.Offres;
 import com.malfoy.leblanko.villes_emploi.Fragment.Profil;
-import com.malfoy.leblanko.villes_emploi.Fragment.Services;
+import com.malfoy.leblanko.villes_emploi.Fragment.Coach;
 import com.malfoy.leblanko.villes_emploi.Fragment.Tribu;
 import com.malfoy.leblanko.villes_emploi.R;
 import com.malfoy.leblanko.villes_emploi.ViewPagerAdapter;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -41,7 +34,7 @@ public class MainMenu extends AppCompatActivity {
     private Profil profil;
     private Offres offres;
     private Tribu tribu;
-    private Services services;
+    private Coach coach;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +48,8 @@ public class MainMenu extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
+        tabLayout.setTabTextColors(getResources().getColor(R.color.white), getResources().getColor(R.color.background_color1));
+
         drawerLayout.bringToFront();
         drawerLayout.requestLayout();
 
@@ -66,15 +61,15 @@ public class MainMenu extends AppCompatActivity {
         profil = new Profil();
         offres = new Offres();
         tribu = new Tribu();
-        services = new Services();
+        coach = new Coach();
 
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
         //On ajoute les differents fragments
         viewPagerAdapter.addFragments(profil, "Profil");
         viewPagerAdapter.addFragments(offres, "Offres");
+        viewPagerAdapter.addFragments(coach, "Coach");
         viewPagerAdapter.addFragments(tribu, "Tribu");
-        viewPagerAdapter.addFragments(services, "Services");
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
@@ -111,7 +106,6 @@ public class MainMenu extends AppCompatActivity {
                 return true;
             }
         });
-
 
         TextView tv= (TextView) findViewById(R.id.search_settings);
         tv.setOnClickListener(new View.OnClickListener() {

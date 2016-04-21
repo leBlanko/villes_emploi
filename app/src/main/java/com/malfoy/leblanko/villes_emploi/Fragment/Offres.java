@@ -42,7 +42,7 @@ public class Offres extends Fragment {
         view = inflater.inflate(R.layout.fragment_offres, container, false);
 
         descView = (WebView) view.findViewById(R.id.descOffres);
-        descView.setBackgroundColor(getResources().getColor(R.color.focusButton));
+        descView.setBackgroundColor(getResources().getColor(R.color.background_color1));
         justifyWebViewAndAddLink(descView, R.string.descOffres, R.string.descOffres2);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
@@ -76,7 +76,7 @@ public class Offres extends Fragment {
         String getDesc = getResources().getString(id);
         String getDesc2 = getResources().getString(id2);
 
-        text = "<html><body><p align=\"justify\" style=\"color:white;\" >";
+        text = "<html><body><p align=\"justify\" style=\"color:#262626;\" >";
         text+= getDesc;
         //Il faut ici faire le lien vers le updateCVMAP
         text+= " <a href=\"activity://updatecvmap\">ici.</a> ";

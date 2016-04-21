@@ -1,6 +1,8 @@
 package com.malfoy.leblanko.villes_emploi.Fragment;
 
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -50,7 +52,7 @@ public class Profil extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profil, container, false);
         descView = (WebView) view.findViewById(R.id.descProfil);
-        descView.setBackgroundColor(getResources().getColor(R.color.focusButton));
+        descView.setBackgroundColor(getResources().getColor(R.color.background_color1));
         justifyWebView(descView, R.string.descProfil);
 
         expandableListView = (ExpandableListView) view.findViewById(R.id.expand_1);
@@ -63,6 +65,13 @@ public class Profil extends Fragment {
         betterTaskList = new ArrayList<String>();
         personnalAdviceList = new ArrayList<String>();
         coachList = new ArrayList<String>();
+
+
+        /*SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+        boolean infCheck = sharedPref.getBoolean("infCheck", false);
+        boolean withoutCheck = sharedPref.getBoolean("withoutCheck", false);
+        boolean choiceCheck = sharedPref.getBoolean("choiceCheck", false);
+        System.out.println("infCheck: "+infCheck + " withoutCheck: "+withoutCheck+ " choice: "+ choiceCheck);*/
 
         splTab = new String[5];
         for(int i=0; i<splTab.length;i++)
@@ -128,7 +137,7 @@ public class Profil extends Fragment {
     {
         String text;
         String getDesc = getResources().getString(id);
-        text = "<html><body><p align=\"justify\" style=\"color:white;\" >";
+        text = "<html><body><p align=\"justify\" style=\"color:#262626;\" >";
         text+= getDesc;
         text+= "</p></body></html>";
         webView.loadData(text, "text/html; charset=UTF-8",null);

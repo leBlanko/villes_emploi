@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:background="@color/buttonColor3">
+    android:background="@color/background_colorDark">
 
     <TextView
         android:id="@+id/child_item"

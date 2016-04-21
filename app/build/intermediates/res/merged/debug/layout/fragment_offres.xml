@@ -15,15 +15,17 @@
             android:layout_height="wrap_content"
             android:text="@string/title_activity_offres"
             android:textSize="@dimen/h2"
+            android:textStyle="bold"
+            android:textAllCaps="true"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/white"/>
+            android:textColor="@color/font_color1"/>
 
         <WebView
             android:id="@+id/descOffres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white"
+            android:textColor="@color/font_color1"
             android:textSize="@dimen/h3" />
 
         <android.support.v7.widget.RecyclerView

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="100dp">
+    android:layout_width="match_parent" android:layout_height="105dp">
 
     <ImageView
         android:id="@+id/logo_annonce"
@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginBottom="40dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/font_color1"/>
 
     <TextView
         android:id="@+id/date_annonce"
@@ -31,7 +31,7 @@
         android:layout_toRightOf="@+id/logo_annonce"
         android:text="Ajouté le X"
         android:textSize="@dimen/h4"
-        android:textColor="@color/white"
+        android:textColor="@color/font_color1"
         android:textStyle="italic"
         android:gravity="center"/>
 
@@ -41,7 +41,7 @@
         android:layout_height="100dp"
         android:layout_toRightOf="@+id/titre_annonce"
         android:text="Ville X"
-        android:textColor="@color/white"
+        android:textColor="@color/font_color1"
         android:textSize="@dimen/h4"
         android:textStyle="normal"
         android:gravity="center_vertical"
@@ -49,9 +49,9 @@
         android:layout_marginBottom="10dp"/>
 
     <View
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/font_color1"
         android:layout_below="@+id/date_annonce"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="3dp"/>

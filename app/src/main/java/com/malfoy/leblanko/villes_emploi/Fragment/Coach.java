@@ -10,12 +10,12 @@ import android.view.ViewGroup;
 import com.malfoy.leblanko.villes_emploi.R;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Created by leBlanko on 21/04/2016.
  */
-public class Services extends Fragment {
+public class Coach extends Fragment {
 
 
-    public Services() {
+    public Coach() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class Services extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_services, container, false);
+        return inflater.inflate(R.layout.fragment_coach, container, false);
     }
 
 }

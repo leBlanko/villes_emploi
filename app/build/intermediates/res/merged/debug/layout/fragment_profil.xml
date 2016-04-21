@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:text="@string/titleProfil"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/white"
+            android:textColor="@color/font_color1"
+            android:textStyle="bold"
+            android:textAllCaps="true"
             android:textSize="@dimen/h2"/>
 
          <WebView
@@ -34,7 +36,7 @@
              android:layout_height="wrap_content"
              android:layout_marginTop="10dp"
              android:text="@string/descProfil"
-             android:textColor="@color/white"
+             android:textColor="@color/font_color1"
              android:textSize="@dimen/h3" />
 
         <ExpandableListView

@@ -11,12 +11,112 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.malfoy.leblanko.villes_emploi.Activity.SearchSettings"
     tools:showIn="@layout/activity_search_settings"
-    android:background="@color/focusButton">
+    android:background="@color/background_color1">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="SEARCH SETTINGS"
-        android:gravity="center"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/descSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descSearch"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/font_color1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_inf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_default"/>
+
+            <WebView
+                android:id="@+id/desc_inf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_without"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_default"/>
+
+            <WebView
+                android:id="@+id/desc_without"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_default"/>
+
+            <WebView
+                android:id="@+id/desc_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+
+        <!--
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_metier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title_choice"/>
+            -->
+
+        <Button
+            android:id="@+id/submit_search"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/submitSearch"
+            android:textSize="@dimen/h3"
+            android:textAllCaps="true"
+            android:textColor="@color/background_color1"
+            android:background="@drawable/button_default"
+            android:layout_marginLeft="40dp"
+            android:padding="10dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_marginRight="40dp"/>
+
+
+    </LinearLayout>
 
 </RelativeLayout>

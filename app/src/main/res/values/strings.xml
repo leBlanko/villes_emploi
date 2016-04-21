@@ -43,6 +43,12 @@
         Vous avez également la possibilité d\'élargir vos paramètres de recherches dans la barre d\'outils ci-dessus.
     </string>
 
+    <string name="descSearch">Je souhaite élargir mes recherches:</string>
+
+    <string name="text_inf">aux emplois nécéssitant un niveau de diplôme inférieur au mien.</string>
+    <string name="text_without">aux emplois qui sont accessibles sans diplômes et qui correspondent à un profil d\'interêt proche du mien.</string>
+    <string name="text_choice">à certains métiers que je choisis</string>
+
     <string name="title_activity_profil">Profil</string>
     <string name="title_activity_offres">Mes offres</string>
     <string name="title_activity_tribu">Tribu</string>
@@ -64,13 +70,19 @@
     <string name="show_cvmap">Voir mon CVMap</string>
     <string name="update_cvmap">Modifier mon CVMap</string>
 
+    <string name="coach_title">Votre coach</string>
+    <string name="coach_title2">personnel</string>
+    <string name="coach_desc_intro">Réussir, c\'est s\'entourer correctement, devenez la meilleur version de vous-même avec un coach personnalisé</string>
+
     <string name="drawer_open">Drawer open</string>
     <string name="drawer_close">Drawer close</string>
 
     <string name="updata_data">Updata data</string>
     <string name="mes_offres">Mes offres</string>
+    <string name="submitSearch">Enregistrer</string>
 
     <string name="back">Retour</string>
+    <string name="title_choice">Entrez un métier</string>
 
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
@@ -100,11 +112,18 @@
 
     <string-array name="annonces_dates">
         <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 12/05/2016</item>
+        <item>Ajouté le 19/05/2016</item>
         <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 17/05/2016</item>
+        <item>Ajouté le 18/05/2016</item>
+    </string-array>
+    
+    <string-array name="list_metiers">
+        <item>Développeur Web</item>
+        <item>Développeur IOS</item>
+        <item>Integrateur Web</item>
+
     </string-array>
 
 
@@ -115,6 +134,7 @@
     <string name="title_activity_show_cvmap">ShowCVMap</string>
     <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_search_settings">SearchSettings</string>
+    <string name="title_activity_coach">Coach</string>
 
 
 </resources>

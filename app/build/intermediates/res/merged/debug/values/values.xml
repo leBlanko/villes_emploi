@@ -10,11 +10,11 @@
     </string-array>
     <string-array name="annonces_dates">
         <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 12/05/2016</item>
+        <item>Ajouté le 19/05/2016</item>
         <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
-        <item>Ajouté le 20/05/2016</item>
+        <item>Ajouté le 17/05/2016</item>
+        <item>Ajouté le 18/05/2016</item>
     </string-array>
     <string-array name="annonces_titles">
         <item>Développeur PHP/HTML</item>
@@ -30,6 +30,12 @@
         <item name="head_better_task">Les tâches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
         <item name="head_coach">Mon coach</item>
+    </string-array>
+    <string-array name="list_metiers">
+        <item>Développeur Web</item>
+        <item>Développeur IOS</item>
+        <item>Integrateur Web</item>
+
     </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -49,10 +55,13 @@
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="background">#183D62</color>
+    <color name="background_color1">#ecf0f1</color>
+    <color name="background_colorDark">#4F4F4F</color>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <color name="bottom_menu_color1">#3B3B3B</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -91,6 +100,7 @@
     <color name="fab_stroke_top_inner_color">#1AFFFFFF</color>
     <color name="fab_stroke_top_outer_color">#2EFFFFFF</color>
     <color name="focusButton">#6fa0d3</color>
+    <color name="font_color1">#262626</color>
     <color name="gray">#ACACAC</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -127,6 +137,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="toolbar_color1">#1F1F1F</color>
     <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
@@ -267,6 +278,7 @@
     <dimen name="fab_translation_z_pressed">6dp</dimen>
     <dimen name="formMargin">40dp</dimen>
     <dimen name="h1">40sp</dimen>
+    <dimen name="h1.5">33sp</dimen>
     <dimen name="h2">25sp</dimen>
     <dimen name="h3">15sp</dimen>
     <dimen name="h4">12sp</dimen>
@@ -337,6 +349,9 @@
     <string name="categorie1">CVMap</string>
     <string name="categorie2">Offres</string>
     <string name="categorie3">Candidatures</string>
+    <string name="coach_desc_intro">Réussir, c\'est s\'entourer correctement, devenez la meilleur version de vous-même avec un coach personnalisé</string>
+    <string name="coach_title">Votre coach</string>
+    <string name="coach_title2">personnel</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
@@ -362,6 +377,7 @@
     <string name="descProfil">
         Trouver un chemin prometteur, confirmer des choix d’orientation,préparer un entretien de sélection ou d’embauche….Autant d’occasions où bien se connaître est essentiel.
     </string>
+    <string name="descSearch">Je souhaite élargir mes recherches:</string>
     <string name="drawer_close">Drawer close</string>
     <string name="drawer_open">Drawer open</string>
     <string name="email">Email </string>
@@ -397,7 +413,12 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="submitInscription">S\'inscrire</string>
     <string name="submitLogin">Se connecter</string>
+    <string name="submitSearch">Enregistrer</string>
+    <string name="text_choice">à certains métiers que je choisis</string>
+    <string name="text_inf">aux emplois nécéssitant un niveau de diplôme inférieur au mien.</string>
+    <string name="text_without">aux emplois qui sont accessibles sans diplômes et qui correspondent à un profil d\'interêt proche du mien.</string>
     <string name="titleProfil">Mon profil</string>
+    <string name="title_activity_coach">Coach</string>
     <string name="title_activity_inscription">Inscription</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_main_menu"> </string>
@@ -411,6 +432,7 @@
     <string name="title_activity_tribu">Tribu</string>
     <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_choice">Entrez un métier</string>
     <string name="title_cvmap">Mon CVMap</string>
     <string name="updata_data">Updata data</string>
     <string name="update_cvmap">Modifier mon CVMap</string>
@@ -421,9 +443,9 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/toolbar_color1</item>
+        <item name="colorPrimaryDark">@color/toolbar_color1</item>
+        <item name="colorAccent">@color/toolbar_color1</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">

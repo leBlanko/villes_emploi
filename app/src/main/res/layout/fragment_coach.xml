@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Coach">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/coach_back">
+
+        <TextView
+            android:id="@+id/coach_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h1.5"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/coach_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_title2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h1.5"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_desc_intro"
+            android:textSize="@dimen/h3"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
