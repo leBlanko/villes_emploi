@@ -16,8 +16,11 @@
     <string name="prenom">Prenom </string>
     <string name="nom">Nom </string>
     <string name="pseudo">Pseudo </string>
+    <string name="mobile">Mobile</string>
+    <string name="adresse">Adresse</string>
     <string name="verifPassword">Vérification </string>
     <string name="CP">Code Postal </string>
+    <string name="sexe">Sexe</string>
     <string name="homme">Homme</string>
     <string name="femme">Femme</string>
     <string name="askS">Vous êtes?</string>
@@ -88,6 +91,12 @@
 
     <string name="back">Retour</string>
     <string name="title_choice">Entrez un métier</string>
+    
+    <string name="title_compte">Compte</string>
+    <string name="title_infos_generales">Infos générales</string>
+    <string name="title_coordonnees">Coordonnées</string>
+
+    <string name="update_title">Modifier</string>
 
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
@@ -96,6 +105,16 @@
         <item name="head_personnal_advice">Conseils personnels</item>
         <item name="head_coach">Mon coach</item>
     </string-array>
+
+    <string name="res_pseudo">BlanKo</string>
+    <string name="res_password">******</string>
+    <string name="res_email">malfoy.tony@gmail.com</string>
+    <string name="res_CP">62100</string>
+    <string name="res_adresse">33 rue Mollien app 26</string>
+    <string name="ville">Calais</string>
+    <string name="res_sexe">Homme</string>
+    <string name="res_mobile">06-58-62-43-43</string>
+    <string name="res_ville">Calais</string>
 
     <string-array name="annonces_titles">
         <item>Développeur PHP/HTML</item>

@@ -44,6 +44,7 @@ public class Coach extends Fragment {
         scrollView = (ScrollView) view.findViewById(R.id.scrollView1);
         toBottom = (ImageView) view.findViewById(R.id.back_page);
 
+        scrollView.scrollTo(0,0);
 
         submitAbo.setOnClickListener(new View.OnClickListener() {
             @Override

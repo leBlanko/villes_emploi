@@ -56,6 +56,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="background">#183D62</color>
     <color name="background_color1">#ecf0f1</color>
+    <color name="background_color2">#ededed</color>
     <color name="background_colorDark">#4F4F4F</color>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
@@ -102,7 +103,8 @@
     <color name="fab_stroke_top_outer_color">#2EFFFFFF</color>
     <color name="focusButton">#6fa0d3</color>
     <color name="font_color1">#262626</color>
-    <color name="gray">#ACACAC</color>
+    <color name="font_color2">#7F8181</color>
+    <color name="gray">#E5DBE6</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
@@ -343,6 +345,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
+    <string name="adresse">Adresse</string>
     <string name="app_name">Villes-Emploi</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="askS">Vous êtes?</string>
@@ -403,6 +406,7 @@
     <string name="mes_offres">Mes offres</string>
     <string name="messenger_send_button_text">Send</string>
     <string name="metier">Développeur Android</string>
+    <string name="mobile">Mobile</string>
     <string name="nom">Nom </string>
     <string name="nomProfil">Malfoy</string>
     <string name="offres">Mes offres enregistrées</string>
@@ -412,6 +416,15 @@
     <string name="progressInscription">Création du compte...</string>
     <string name="progressLogin">Authentification...</string>
     <string name="pseudo">Pseudo </string>
+    <string name="res_CP">62100</string>
+    <string name="res_adresse">33 rue Mollien app 26</string>
+    <string name="res_email">malfoy.tony@gmail.com</string>
+    <string name="res_mobile">06-58-62-43-43</string>
+    <string name="res_password">******</string>
+    <string name="res_pseudo">BlanKo</string>
+    <string name="res_sexe">Homme</string>
+    <string name="res_ville">Calais</string>
+    <string name="sexe">Sexe</string>
     <string name="show_cvmap">Voir mon CVMap</string>
     <string name="signup_question">Pas encore de compte?</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -438,10 +451,15 @@
     <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_update_data">UpdateData</string>
     <string name="title_choice">Entrez un métier</string>
+    <string name="title_compte">Compte</string>
+    <string name="title_coordonnees">Coordonnées</string>
     <string name="title_cvmap">Mon CVMap</string>
+    <string name="title_infos_generales">Infos générales</string>
     <string name="updata_data">Updata data</string>
     <string name="update_cvmap">Modifier mon CVMap</string>
+    <string name="update_title">Modifier</string>
     <string name="verifPassword">Vérification </string>
+    <string name="ville">Calais</string>
     <string name="what_is_coach">Qu\'est ce que le coach?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
