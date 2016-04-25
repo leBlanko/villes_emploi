@@ -72,6 +72,7 @@
     <color name="buttonColor2">#f8f9fa</color>
     <color name="buttonColor3">#205081</color>
     <color name="buttonColor4">#30659C</color>
+    <color name="button_alert">#e50000</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
@@ -131,7 +132,7 @@
     <color name="shadow_end_color">@android:color/transparent</color>
     <color name="shadow_mid_color">#14000000</color>
     <color name="shadow_start_color">#44000000</color>
-    <color name="skill">#3498db</color>
+    <color name="skill">#e50000</color>
     <color name="snackbar_background_color">#323232</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -349,6 +350,9 @@
     <string name="categorie1">CVMap</string>
     <string name="categorie2">Offres</string>
     <string name="categorie3">Candidatures</string>
+    <string name="coach_desc1">vous aidera dans la réalisation de votre CVMap qui sera mis en avant dans vos candidatures</string>
+    <string name="coach_desc2">s\'adapte à votre profil pour vous donner les meilleurs conseils</string>
+    <string name="coach_desc3">vous aidera à preparer vos entretiens d\'embauche ou d\' entrée en formation</string>
     <string name="coach_desc_intro">Réussir, c\'est s\'entourer correctement, devenez la meilleur version de vous-même avec un coach personnalisé</string>
     <string name="coach_title">Votre coach</string>
     <string name="coach_title2">personnel</string>
@@ -411,6 +415,7 @@
     <string name="show_cvmap">Voir mon CVMap</string>
     <string name="signup_question">Pas encore de compte?</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submitCoach">Abonnez-vous pour 0.99€/semaine seulement.</string>
     <string name="submitInscription">S\'inscrire</string>
     <string name="submitLogin">Se connecter</string>
     <string name="submitSearch">Enregistrer</string>
@@ -437,6 +442,7 @@
     <string name="updata_data">Updata data</string>
     <string name="update_cvmap">Modifier mon CVMap</string>
     <string name="verifPassword">Vérification </string>
+    <string name="what_is_coach">Qu\'est ce que le coach?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

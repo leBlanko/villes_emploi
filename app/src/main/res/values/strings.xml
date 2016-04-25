@@ -73,6 +73,9 @@
     <string name="coach_title">Votre coach</string>
     <string name="coach_title2">personnel</string>
     <string name="coach_desc_intro">Réussir, c\'est s\'entourer correctement, devenez la meilleur version de vous-même avec un coach personnalisé</string>
+    <string name="coach_desc1">vous aidera dans la réalisation de votre CVMap qui sera mis en avant dans vos candidatures</string>
+    <string name="coach_desc2">s\'adapte à votre profil pour vous donner les meilleurs conseils</string>
+    <string name="coach_desc3">vous aidera à preparer vos entretiens d\'embauche ou d\' entrée en formation</string>
 
     <string name="drawer_open">Drawer open</string>
     <string name="drawer_close">Drawer close</string>
@@ -80,6 +83,8 @@
     <string name="updata_data">Updata data</string>
     <string name="mes_offres">Mes offres</string>
     <string name="submitSearch">Enregistrer</string>
+    <string name="submitCoach">Abonnez-vous pour 0.99€/semaine seulement.</string>
+    <string name="what_is_coach">Qu\'est ce que le coach?</string>
 
     <string name="back">Retour</string>
     <string name="title_choice">Entrez un métier</string>

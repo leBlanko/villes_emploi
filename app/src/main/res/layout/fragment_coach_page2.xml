@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/coach_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_title"
+            android:textColor="@color/font_color1"
+            android:textSize="@dimen/h2"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/coach_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coach_title2"
+            android:textColor="@color/font_color1"
+            android:textSize="@dimen/h2"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/check" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coach_desc1"
+                android:textColor="@color/font_color1"
+                android:textSize="@dimen/h3"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/check" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coach_desc2"
+                android:textColor="@color/font_color1"
+                android:textSize="@dimen/h3"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/check" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coach_desc3"
+                android:textColor="@color/font_color1"
+                android:textSize="@dimen/h3"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</LinearLayout>

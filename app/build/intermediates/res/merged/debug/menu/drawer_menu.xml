@@ -36,7 +36,7 @@
             <item
                 android:id="@+id/update_cvmap"
                 android:icon="@drawable/update_cvmap"
-                android:title="@string/update_cvmap"/>
+                android:title="@string/update_cvmap" />
 
         </menu>
 

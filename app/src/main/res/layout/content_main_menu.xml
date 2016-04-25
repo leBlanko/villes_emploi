@@ -17,6 +17,7 @@
             android:layout_gravity="start"
             android:background="@color/bottom_menu_color1"
             app:menu="@menu/drawer_menu"
+            app:itemTextColor="@color/background_color1"
             app:headerLayout="@layout/profil_layout_header">
 
             </android.support.design.widget.NavigationView>

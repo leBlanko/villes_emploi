@@ -8,32 +8,36 @@
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/edit_text_top.xml"
     },
     {
-        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/snackbar_background.xml",
-        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/drawable/snackbar_background.xml"
-    },
-    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/snackbar_background.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/drawable/snackbar_background.xml"
     },
     {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/bottom_arrow.png",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/bottom_arrow.png"
+    },
+    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/home.png",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/home.png"
     },
     {
-        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/checked_textview_default.xml",
-        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/checked_textview_default.xml"
-    },
-    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/checked_textview_default.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/checked_textview_default.xml"
     },
     {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/email.png",
@@ -108,6 +112,10 @@
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_send_background.xml"
     },
     {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/button_default2.xml",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/button_default2.xml"
+    },
+    {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/show_cvmap.png",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/show_cvmap.png"
     },
@@ -154,6 +162,10 @@
     {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
         "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/check.png",
+        "source": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/res/drawable/check.png"
     },
     {
         "merged": "/Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
