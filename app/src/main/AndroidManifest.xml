@@ -61,6 +61,18 @@
         <activity
             android:name=".Activity.SearchSettings"
             android:label=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.CompteUpdate"
+            android:label="@string/title_activity_compte_update"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.InfosUpdate"
+            android:label="@string/title_activity_infos_update"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.Coordonnees"
+            android:label="@string/title_activity_coordonnees"
             android:theme="@style/AppTheme"></activity>
     </application>
 

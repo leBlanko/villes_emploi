@@ -68,6 +68,18 @@
             android:name="com.malfoy.leblanko.villes_emploi.Activity.SearchSettings"
             android:label=""
             android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.CompteUpdate"
+            android:label="@string/title_activity_compte_update"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.InfosUpdate"
+            android:label="@string/title_activity_infos_update"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.Coordonnees"
+            android:label="@string/title_activity_coordonnees"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

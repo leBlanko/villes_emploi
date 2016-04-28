@@ -12,6 +12,7 @@
     <string name="errorPassword">Le mot de passe doit faire minimum 5 caractères</string>
     <string name="errorVerifPassword">Les mots de passe ne sont pas identiques</string>
     <string name="errorAskS">Veuillez remplir tous les champs</string>
+    <string name="errorSexe">Veuillez choisir un sexe</string>
     <string name="title_activity_inscription">Inscription</string>
     <string name="prenom">Prenom </string>
     <string name="nom">Nom </string>
@@ -35,6 +36,8 @@
     <string name="categorie2">Offres</string>
     <string name="categorie3">Candidatures</string>
     <string name="titleProfil">Mon profil</string>
+    <string name="title_phone">Telephone</string>
+    <string name="title_adresse">Adresse</string>
 
     <string name="descProfil">
         Trouver un chemin prometteur, confirmer des choix d’orientation,préparer un entretien de sélection ou d’embauche….Autant d’occasions où bien se connaître est essentiel.
@@ -84,6 +87,8 @@
     <string name="drawer_close">Drawer close</string>
 
     <string name="updata_data">Updata data</string>
+    <string name="submitUpdate">Enregistrer</string>
+    <string name="noUpdate">Annuler</string>
     <string name="mes_offres">Mes offres</string>
     <string name="submitSearch">Enregistrer</string>
     <string name="submitCoach">Abonnez-vous pour 0.99€/semaine seulement.</string>
@@ -91,7 +96,7 @@
 
     <string name="back">Retour</string>
     <string name="title_choice">Entrez un métier</string>
-    
+
     <string name="title_compte">Compte</string>
     <string name="title_infos_generales">Infos générales</string>
     <string name="title_coordonnees">Coordonnées</string>
@@ -111,7 +116,7 @@
     <string name="res_email">malfoy.tony@gmail.com</string>
     <string name="res_CP">62100</string>
     <string name="res_adresse">33 rue Mollien app 26</string>
-    <string name="ville">Calais</string>
+    <string name="ville">Ville</string>
     <string name="res_sexe">Homme</string>
     <string name="res_mobile">06-58-62-43-43</string>
     <string name="res_ville">Calais</string>
@@ -142,7 +147,7 @@
         <item>Ajouté le 17/05/2016</item>
         <item>Ajouté le 18/05/2016</item>
     </string-array>
-    
+
     <string-array name="list_metiers">
         <item>Développeur Web</item>
         <item>Développeur IOS</item>
@@ -159,6 +164,9 @@
     <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_search_settings">SearchSettings</string>
     <string name="title_activity_coach">Coach</string>
+    <string name="title_activity_compte_update">CompteUpdate</string>
+    <string name="title_activity_infos_update">InfosUpdate</string>
+    <string name="title_activity_coordonnees">Coordonnees</string>
 
 
 </resources>

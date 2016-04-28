@@ -39,6 +39,7 @@
                 android:padding="2dp"/>
 
             <include
+                android:id="@+id/compte_include"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 layout="@layout/update_line"
@@ -60,6 +61,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/pseudoV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_pseudo"
@@ -117,6 +119,7 @@
                 android:padding="2dp"/>
 
             <include
+                android:id="@+id/infos_perso_include"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 layout="@layout/update_line"
@@ -138,6 +141,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/nomV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nomProfil"
@@ -159,6 +163,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/prenomV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/prenomProfil"
@@ -180,6 +185,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/emailV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_email"
@@ -201,6 +207,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/sexeV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_sexe"
@@ -237,6 +244,7 @@
                 android:padding="2dp"/>
 
             <include
+                android:id="@+id/coordonnees_include"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 layout="@layout/update_line"
@@ -258,6 +266,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/mobileV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_mobile"
@@ -279,6 +288,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/adresseV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_adresse"
@@ -300,6 +310,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/cpV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_CP"
@@ -321,6 +332,7 @@
                 android:textColor="@color/font_color2"/>
 
             <TextView
+                android:id="@+id/villeV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/res_ville"

@@ -285,6 +285,7 @@
     <dimen name="h2">25sp</dimen>
     <dimen name="h3">15sp</dimen>
     <dimen name="h4">12sp</dimen>
+    <dimen name="h5">10dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="navigation_elevation">12dp</dimen>
     <dimen name="navigation_icon_padding">32dp</dimen>
@@ -391,6 +392,7 @@
     <string name="errorAskS">Veuillez remplir tous les champs</string>
     <string name="errorEmail">Veuillez entrer un email correct</string>
     <string name="errorPassword">Le mot de passe doit faire minimum 5 caractères</string>
+    <string name="errorSexe">Veuillez choisir un sexe</string>
     <string name="errorVerifPassword">Les mots de passe ne sont pas identiques</string>
     <string name="facebook_id">1535030600132171</string>
     <string name="femme">Femme</string>
@@ -407,6 +409,7 @@
     <string name="messenger_send_button_text">Send</string>
     <string name="metier">Développeur Android</string>
     <string name="mobile">Mobile</string>
+    <string name="noUpdate">Annuler</string>
     <string name="nom">Nom </string>
     <string name="nomProfil">Malfoy</string>
     <string name="offres">Mes offres enregistrées</string>
@@ -432,11 +435,15 @@
     <string name="submitInscription">S\'inscrire</string>
     <string name="submitLogin">Se connecter</string>
     <string name="submitSearch">Enregistrer</string>
+    <string name="submitUpdate">Enregistrer</string>
     <string name="text_choice">à certains métiers que je choisis</string>
     <string name="text_inf">aux emplois nécéssitant un niveau de diplôme inférieur au mien.</string>
     <string name="text_without">aux emplois qui sont accessibles sans diplômes et qui correspondent à un profil d\'interêt proche du mien.</string>
     <string name="titleProfil">Mon profil</string>
     <string name="title_activity_coach">Coach</string>
+    <string name="title_activity_compte_update">CompteUpdate</string>
+    <string name="title_activity_coordonnees">Coordonnees</string>
+    <string name="title_activity_infos_update">InfosUpdate</string>
     <string name="title_activity_inscription">Inscription</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_main_menu"> </string>
@@ -450,16 +457,18 @@
     <string name="title_activity_tribu">Tribu</string>
     <string name="title_activity_update_cvmap">UpdateCVMap</string>
     <string name="title_activity_update_data">UpdateData</string>
+    <string name="title_adresse">Adresse</string>
     <string name="title_choice">Entrez un métier</string>
     <string name="title_compte">Compte</string>
     <string name="title_coordonnees">Coordonnées</string>
     <string name="title_cvmap">Mon CVMap</string>
     <string name="title_infos_generales">Infos générales</string>
+    <string name="title_phone">Telephone</string>
     <string name="updata_data">Updata data</string>
     <string name="update_cvmap">Modifier mon CVMap</string>
     <string name="update_title">Modifier</string>
     <string name="verifPassword">Vérification </string>
-    <string name="ville">Calais</string>
+    <string name="ville">Ville</string>
     <string name="what_is_coach">Qu\'est ce que le coach?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

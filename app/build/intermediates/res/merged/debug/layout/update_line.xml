@@ -17,6 +17,7 @@
             android:layout_gravity="right" />
 
         <TextView
+            android:id="@+id/submit_modifier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/update_title"
