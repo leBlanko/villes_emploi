@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:2:1-79:12
+ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:2:1-83:12
 	package
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:7:5-77:19
+ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:7:5-81:19
 MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.1] /Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.1] /Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
@@ -156,13 +156,21 @@ ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:70:13-49
 activity#com.malfoy.leblanko.villes_emploi.Activity.Coordonnees
-ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:73:9-76:56
+ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:73:9-76:47
 	android:label
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:75:13-63
 	android:theme
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:76:13-44
 	android:name
 		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:74:13-49
+activity#com.malfoy.leblanko.villes_emploi.Activity.Coach
+ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:77:9-80:56
+	android:label
+		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:79:13-57
+	android:theme
+		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml:78:13-43
 uses-sdk
 INJECTED from /Users/leBlanko/Documents/Android/Villes-Emploi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/leBlanko/Documents/Android/Villes-Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43

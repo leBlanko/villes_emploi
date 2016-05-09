@@ -80,6 +80,10 @@
             android:name="com.malfoy.leblanko.villes_emploi.Activity.Coordonnees"
             android:label="@string/title_activity_coordonnees"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.malfoy.leblanko.villes_emploi.Activity.Coach"
+            android:label="@string/title_activity_coach"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

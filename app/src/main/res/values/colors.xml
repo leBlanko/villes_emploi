@@ -22,6 +22,7 @@
     <color name="bottom_menu_color1">#3B3B3B</color>
     <color name="font_color1">#262626</color>
     <color name="font_color2">#7F8181</color>
+    <color name="font_color3">#FFB401</color>
     <color name="button_alert">#e50000</color>
 
 </resources>

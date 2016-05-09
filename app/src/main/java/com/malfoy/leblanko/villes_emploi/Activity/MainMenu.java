@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import com.malfoy.leblanko.villes_emploi.Fragment.Offres;
 import com.malfoy.leblanko.villes_emploi.Fragment.Profil;
-import com.malfoy.leblanko.villes_emploi.Fragment.Coach;
+import com.malfoy.leblanko.villes_emploi.Fragment.Services;
 import com.malfoy.leblanko.villes_emploi.Fragment.Tribu;
 import com.malfoy.leblanko.villes_emploi.R;
 import com.malfoy.leblanko.villes_emploi.ViewPagerAdapter;
@@ -34,7 +34,7 @@ public class MainMenu extends AppCompatActivity {
     private Profil profil;
     private Offres offres;
     private Tribu tribu;
-    private Coach coach;
+    private Services services;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,15 +61,16 @@ public class MainMenu extends AppCompatActivity {
         profil = new Profil();
         offres = new Offres();
         tribu = new Tribu();
-        coach = new Coach();
+        services = new Services();
 
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
         //On ajoute les differents fragments
         viewPagerAdapter.addFragments(profil, "Profil");
         viewPagerAdapter.addFragments(offres, "Offres");
-        viewPagerAdapter.addFragments(coach, "Coach");
         viewPagerAdapter.addFragments(tribu, "Tribu");
+        viewPagerAdapter.addFragments(services, "Services");
+
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);

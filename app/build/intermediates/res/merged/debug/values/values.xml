@@ -29,7 +29,6 @@
         <item name="head_best_words">Mes verbes préférés</item>
         <item name="head_better_task">Les tâches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
-        <item name="head_coach">Mon coach</item>
     </string-array>
     <string-array name="list_metiers">
         <item>Développeur Web</item>
@@ -104,6 +103,7 @@
     <color name="focusButton">#6fa0d3</color>
     <color name="font_color1">#262626</color>
     <color name="font_color2">#7F8181</color>
+    <color name="font_color3">#FFB401</color>
     <color name="gray">#E5DBE6</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -397,6 +397,7 @@
     <string name="facebook_id">1535030600132171</string>
     <string name="femme">Femme</string>
     <string name="forgotpassword_question">Mot de passe oublié?</string>
+    <string name="head_coach">Mon coach</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Accueil</string>
     <string name="homme">Homme</string>

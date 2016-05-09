@@ -73,6 +73,10 @@
         <activity
             android:name=".Activity.Coordonnees"
             android:label="@string/title_activity_coordonnees"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.Coach"
+            android:label="@string/title_activity_coach"
             android:theme="@style/AppTheme"></activity>
     </application>
 

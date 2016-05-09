@@ -108,8 +108,9 @@
         <item name="head_best_words">Mes verbes préférés</item>
         <item name="head_better_task">Les tâches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
-        <item name="head_coach">Mon coach</item>
     </string-array>
+
+    <string name="head_coach">Mon coach</string>
 
     <string name="res_pseudo">BlanKo</string>
     <string name="res_password">******</string>
