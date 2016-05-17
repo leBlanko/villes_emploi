@@ -42,29 +42,48 @@
                 android:id="@+id/desc_inf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/white"
                 android:textSize="@dimen/h3" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="120dp"
             android:orientation="horizontal">
 
             <Switch
                 android:id="@+id/switch_without"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/button_default"/>
 
             <WebView
                 android:id="@+id/desc_without"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/askMetier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_default"
+                android:text="Editer"
+                android:textColor="@color/white"/>
+
+            <WebView
+                android:id="@+id/desc_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="@dimen/h3" />
 
@@ -72,33 +91,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
-            <Switch
-                android:id="@+id/switch_choice"
+            <Button
+                android:id="@+id/askVille"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/button_default"/>
+                android:background="@drawable/button_default"
+                android:text="Editer"
+                android:textColor="@color/white"/>
 
             <WebView
-                android:id="@+id/desc_choice"
+                android:id="@+id/desc_ville"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/white"
                 android:textSize="@dimen/h3" />
 
         </LinearLayout>
-
-        <!--
-        <AutoCompleteTextView
-            android:id="@+id/auto_complete_metier"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/title_choice"/>
-            -->
 
         <Button
             android:id="@+id/submit_search"

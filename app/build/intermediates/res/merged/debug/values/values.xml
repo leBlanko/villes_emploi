@@ -349,7 +349,9 @@
     <string name="adresse">Adresse</string>
     <string name="app_name">Villes-Emploi</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="askMetier">Entrez un métier</string>
     <string name="askS">Vous êtes?</string>
+    <string name="askVille">Entrez une ville</string>
     <string name="back">Retour</string>
     <string name="categorie1">CVMap</string>
     <string name="categorie2">Offres</string>
@@ -470,6 +472,7 @@
     <string name="update_title">Modifier</string>
     <string name="verifPassword">Vérification </string>
     <string name="ville">Ville</string>
+    <string name="villes_choice">aux villes que je choisis</string>
     <string name="what_is_coach">Qu\'est ce que le coach?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

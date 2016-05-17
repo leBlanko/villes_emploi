@@ -63,33 +63,14 @@
                     android:textSize="@dimen/h3"
                     android:layout_marginTop="5dp"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp">
+            </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mat1"
-                        android:textColor="@color/white"
-                        android:background="@drawable/skill_default"
-                        android:textSize="@dimen/h2"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mat2"
-                        android:textColor="@color/white"
-                        android:background="@drawable/skill_default"
-                        android:textSize="@dimen/h2"
-                        android:textStyle="bold"
-                        android:layout_marginLeft="15dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
 
-                </LinearLayout>
 
             </LinearLayout>
 

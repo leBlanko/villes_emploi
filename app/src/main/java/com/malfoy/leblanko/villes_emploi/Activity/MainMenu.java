@@ -68,7 +68,7 @@ public class MainMenu extends AppCompatActivity {
         //On ajoute les differents fragments
         viewPagerAdapter.addFragments(profil, "Profil");
         viewPagerAdapter.addFragments(offres, "Offres");
-        viewPagerAdapter.addFragments(tribu, "Tribu");
+        viewPagerAdapter.addFragments(tribu, "Ma ville emploi");
         viewPagerAdapter.addFragments(services, "Services");
 
 

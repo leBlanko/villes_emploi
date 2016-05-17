@@ -54,6 +54,7 @@
     <string name="text_inf">aux emplois nécéssitant un niveau de diplôme inférieur au mien.</string>
     <string name="text_without">aux emplois qui sont accessibles sans diplômes et qui correspondent à un profil d\'interêt proche du mien.</string>
     <string name="text_choice">à certains métiers que je choisis</string>
+    <string name="villes_choice">aux villes que je choisis</string>
 
     <string name="title_activity_profil">Profil</string>
     <string name="title_activity_offres">Mes offres</string>
@@ -102,6 +103,9 @@
     <string name="title_coordonnees">Coordonnées</string>
 
     <string name="update_title">Modifier</string>
+
+    <string name="askMetier">Entrez un métier</string>
+    <string name="askVille">Entrez une ville</string>
 
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
