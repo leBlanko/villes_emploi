@@ -2523,17 +2523,18 @@ containing a value of this type.
         public static final int messenger_button_send_round_shadow=0x7f020096;
         public static final int messenger_button_white_bg_round=0x7f020097;
         public static final int messenger_button_white_bg_selector=0x7f020098;
-        public static final int notification_template_icon_bg=0x7f0200a3;
-        public static final int offres=0x7f020099;
-        public static final int password=0x7f02009a;
-        public static final int plus=0x7f02009b;
-        public static final int show_cvmap=0x7f02009c;
-        public static final int skill_default=0x7f02009d;
-        public static final int snackbar_background=0x7f02009e;
-        public static final int titre=0x7f02009f;
-        public static final int update1=0x7f0200a0;
-        public static final int update_cvmap=0x7f0200a1;
-        public static final int update_title_default=0x7f0200a2;
+        public static final int navigation=0x7f020099;
+        public static final int notification_template_icon_bg=0x7f0200a4;
+        public static final int offres=0x7f02009a;
+        public static final int password=0x7f02009b;
+        public static final int plus=0x7f02009c;
+        public static final int show_cvmap=0x7f02009d;
+        public static final int skill_default=0x7f02009e;
+        public static final int snackbar_background=0x7f02009f;
+        public static final int titre=0x7f0200a0;
+        public static final int update1=0x7f0200a1;
+        public static final int update_cvmap=0x7f0200a2;
+        public static final int update_title_default=0x7f0200a3;
     }
     public static final class id {
         public static final int CP=0x7f0d00a3;

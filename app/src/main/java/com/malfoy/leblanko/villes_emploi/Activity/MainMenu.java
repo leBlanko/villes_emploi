@@ -10,6 +10,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -56,6 +57,18 @@ public class MainMenu extends AppCompatActivity {
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         //Ceci va faire apparaitre le menu quand on slide sur le bord gauche de l ecran ou quand on clique sur le menu hamburger
         actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close);
+        //On desactive l icon par default
+        actionBarDrawerToggle.setDrawerIndicatorEnabled(false);
+
+        toolbar.setNavigationIcon(R.drawable.navigation);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(Gravity.LEFT);
+            }
+        });
+
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
         profil = new Profil();
