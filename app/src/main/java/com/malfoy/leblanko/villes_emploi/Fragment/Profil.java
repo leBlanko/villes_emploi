@@ -40,6 +40,7 @@ public class Profil extends Fragment {
     private List<String> bestWordsList;
     private List<String> betterTaskList;
     private List<String> personnalAdviceList;
+    private List<String> coachList;
 
     private String [] splTab;
     private String [] bwlTab;
@@ -53,9 +54,8 @@ public class Profil extends Fragment {
                              Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.fragment_profil, container, false);
         descView = (WebView) view.findViewById(R.id.descProfil);
-        coachSubmit = (Button) view.findViewById(R.id.coachSubmit);
         descView.setBackgroundColor(getResources().getColor(R.color.background_color1));
-        justifyWebView(descView, R.string.descProfil);
+        makeWebView(descView, R.string.descProfil);
 
         expandableListView = (ExpandableListView) view.findViewById(R.id.expand_1);
         Headings = new ArrayList<String>();
@@ -66,6 +66,7 @@ public class Profil extends Fragment {
         bestWordsList = new ArrayList<String>();
         betterTaskList = new ArrayList<String>();
         personnalAdviceList = new ArrayList<String>();
+        coachList = new ArrayList<String>();
 
 
         /*SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
@@ -74,21 +75,26 @@ public class Profil extends Fragment {
         boolean choiceCheck = sharedPref.getBoolean("choiceCheck", false);
         System.out.println("infCheck: "+infCheck + " withoutCheck: "+withoutCheck+ " choice: "+ choiceCheck);*/
 
+        /*
         splTab = new String[5];
         for(int i=0; i<splTab.length;i++)
             splTab[i] = "Point fort "+(i+1);
+        */
 
         bwlTab = new String[5];
         for(int i=0; i<bwlTab.length;i++)
             bwlTab[i] = "Verbe "+(i+1);
 
-        btlTab = new String[5];
-        for(int i=0; i<btlTab.length;i++)
-            btlTab[i] = "Tâche "+(i+1);
+        btlTab = new String[3];
+        btlTab[0] = "Accorde une grande importance aux details";
+        btlTab[1] = "Aime apprendre en permanence de nouvelles choses";
+        btlTab[2] = "A l\'ecoute des autres personnes";
 
+        /*
         palTab = new String[5];
         for(int i=0; i<palTab.length;i++)
             palTab[i] = "Conseil "+(i+1);
+            */
 
 
         for(String title: heading_items)
@@ -96,10 +102,14 @@ public class Profil extends Fragment {
             Headings.add(title);
         }
 
-        for(String title : splTab)
+        /*for(String title : splTab)
         {
             strongPointList.add(title);
-        }
+        }*/
+
+        for(int i=0; i<3 ; i++)
+            strongPointList.add("");
+
         for(String title: bwlTab)
         {
             bestWordsList.add(title);
@@ -108,42 +118,40 @@ public class Profil extends Fragment {
         {
             betterTaskList.add(title);
         }
+
+        /*
         for(String title: palTab)
         {
             personnalAdviceList.add(title);
         }
+        */
+
+        //Pour l'instant il n y a qu'un conseil perso
+        personnalAdviceList.add("");
+        coachList.add("");
 
         ChildList.put(Headings.get(0), strongPointList);
         ChildList.put(Headings.get(1), bestWordsList);
         ChildList.put(Headings.get(2), betterTaskList);
         ChildList.put(Headings.get(3), personnalAdviceList);
+        ChildList.put(Headings.get(4),coachList);
 
-        ExpandAdapter expandAdapter = new ExpandAdapter(container.getContext(),Headings,ChildList);
+        ExpandAdapter expandAdapter = new ExpandAdapter(container.getContext(), Headings, ChildList);
         expandableListView.setAdapter(expandAdapter);
-
-        coachSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent goToCoach = new Intent(view.getContext(), Coach.class);
-                startActivity(goToCoach);
-            }
-        });
 
 
         return view;
     }
 
     //Methode qui va permettre de justifier le texte dans la vue
-    public void justifyWebView(WebView webView, int id)
+    public void makeWebView(WebView webView, int id)
     {
         String text;
         String getDesc = getResources().getString(id);
         text = "<html><body>";
-        //text += getBackground();
-        text += "<p align=\"justify\" style=\"color:#262626;\" >";
+        text += "<p align=\"center\" style=\" font-size:16px; color:#FFFFFF; background-color:#2a87c9; margin:-10; padding: 15px 40px 15px 40px; border-top-style: solid; border-color: #0272bb; border-width: 5px; \">";
         text += getDesc;
         text += "</p>";
-        //text += "</div></div>";
         text+= "</body></html>";
         webView.loadData(text, "text/html; charset=UTF-8",null);
     }

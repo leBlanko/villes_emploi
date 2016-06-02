@@ -7,7 +7,10 @@
     <dimen name="h1">40sp</dimen>
     <dimen name="h1.5">33sp</dimen>
     <dimen name="h2">25sp</dimen>
+    <dimen name="h2.5">20sp</dimen>
     <dimen name="h3">15sp</dimen>
     <dimen name="h4">12sp</dimen>
     <dimen name="h5">10dp</dimen>
+    <dimen name="tab_label">10sp</dimen>
+    <dimen name="custom_tab_layout_height">60dp</dimen>
 </resources>

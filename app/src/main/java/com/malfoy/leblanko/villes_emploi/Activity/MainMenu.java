@@ -11,6 +11,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -51,6 +52,8 @@ public class MainMenu extends AppCompatActivity {
 
         tabLayout.setTabTextColors(getResources().getColor(R.color.white), getResources().getColor(R.color.background_color1));
 
+
+
         drawerLayout.bringToFront();
         drawerLayout.requestLayout();
 
@@ -60,7 +63,7 @@ public class MainMenu extends AppCompatActivity {
         //On desactive l icon par default
         actionBarDrawerToggle.setDrawerIndicatorEnabled(false);
 
-        toolbar.setNavigationIcon(R.drawable.navigation);
+        toolbar.setNavigationIcon(R.drawable.ic_profil);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,14 +82,15 @@ public class MainMenu extends AppCompatActivity {
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
         //On ajoute les differents fragments
-        viewPagerAdapter.addFragments(profil, "Profil");
-        viewPagerAdapter.addFragments(offres, "Offres");
-        viewPagerAdapter.addFragments(tribu, "Ma ville emploi");
-        viewPagerAdapter.addFragments(services, "Services");
-
+        viewPagerAdapter.addFragments(profil, ""); //Mes talents
+        viewPagerAdapter.addFragments(offres, ""); //Mes offres
+        viewPagerAdapter.addFragments(tribu, ""); // Ma ville
+        viewPagerAdapter.addFragments(services, ""); //Mes services
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
+
+        setupTabIcons();
 
         //On recupere le navigation view
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
@@ -150,6 +154,27 @@ public class MainMenu extends AppCompatActivity {
 
     }
 
+    private void setupTabIcons() {
+        TextView tabOne = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabOne.setText("Mes talents");
+        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_mestalents, 0, 0);
+        tabLayout.getTabAt(0).setCustomView(tabOne);
+
+        TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabTwo.setText("Mes offres");
+        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_mesoffres, 0, 0);
+        tabLayout.getTabAt(1).setCustomView(tabTwo);
+
+        TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabThree.setText("Ma carte");
+        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_maville, 0, 0);
+        tabLayout.getTabAt(2).setCustomView(tabThree);
+
+        TextView tabFour = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+        tabFour.setText("Mes services");
+        tabFour.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_messervices, 0, 0);
+        tabLayout.getTabAt(3).setCustomView(tabFour);
+    }
 
 
 }

@@ -24,5 +24,9 @@
     <color name="font_color2">#7F8181</color>
     <color name="font_color3">#FFB401</color>
     <color name="button_alert">#e50000</color>
+    <color name="toolbarBackground">#F2F3F4</color>
+    <color name="talentColor1">#747075</color>
+    <color name="submit_coach">#92a93c</color>
+    <color name="back_coach">#eef1f5</color>
 
 </resources>

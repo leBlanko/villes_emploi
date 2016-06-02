@@ -27,8 +27,9 @@
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
         <item name="head_best_words">Mes verbes préférés</item>
-        <item name="head_better_task">Les tâches où j\'excelle</item>
+        <item name="head_better_task">Taches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
+        <item name="head_coach">Mon bilan personnel coach</item>
     </string-array>
     <string-array name="list_metiers">
         <item>Développeur Web</item>
@@ -53,6 +54,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="back_coach">#eef1f5</color>
     <color name="background">#183D62</color>
     <color name="background_color1">#ecf0f1</color>
     <color name="background_color2">#ededed</color>
@@ -153,10 +155,13 @@
     <color name="shadow_start_color">#44000000</color>
     <color name="skill">#e50000</color>
     <color name="snackbar_background_color">#323232</color>
+    <color name="submit_coach">#92a93c</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="talentColor1">#747075</color>
+    <color name="toolbarBackground">#F2F3F4</color>
     <color name="toolbar_color1">#1F1F1F</color>
     <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -286,6 +291,7 @@
     <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
     <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
     <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="custom_tab_layout_height">60dp</dimen>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
@@ -303,6 +309,7 @@
     <dimen name="h1">40sp</dimen>
     <dimen name="h1.5">33sp</dimen>
     <dimen name="h2">25sp</dimen>
+    <dimen name="h2.5">20sp</dimen>
     <dimen name="h3">15sp</dimen>
     <dimen name="h4">12sp</dimen>
     <dimen name="h5">10dp</dimen>
@@ -327,6 +334,7 @@
     <dimen name="snackbar_padding_vertical">14dp</dimen>
     <dimen name="snackbar_padding_vertical_2lines">24dp</dimen>
     <dimen name="snackbar_text_size">14sp</dimen>
+    <dimen name="tab_label">10sp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
@@ -376,6 +384,11 @@
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="back">Retour</string>
+    <string name="bilan_desc">Basé sur la méthode TRICAM ® , le test que vous avez passé permet aux conseillers de la Maison de l\'orientation d\'établir votre bilan d\'orientation personnalisé. Ce bilan vous permet de faire
+    le point sur vos motivations, vous atouts et éventuellement vos faiblesses. Il vous indique en complément vos meilleures chances de réussite par rapport à 1000 métiers.
+    Il vous permettra avec l\'aide de votre coach en ligne de peaufiner votre CVmap ® en trouvant les bons arguments pour appuyer vos motivations. Enfin, il vous aide à préparer vos entretiens de sélection pour une entrée en formation ou à un entretien d\'embauche.</string>
+    <string name="bilan_title">Un bilan personnalisé d\'orientation</string>
+    <string name="bilanperso">Mon bilan personnel coach</string>
     <string name="categorie1">CVMap</string>
     <string name="categorie2">Offres</string>
     <string name="categorie3">Candidatures</string>
@@ -450,6 +463,7 @@
     <string name="errorVerifPassword">Les mots de passe ne sont pas identiques</string>
     <string name="facebook_id">1535030600132171</string>
     <string name="femme">Femme</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
     <string name="forgotpassword_question">Mot de passe oublié?</string>
     <string name="head_coach">Mon coach</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>

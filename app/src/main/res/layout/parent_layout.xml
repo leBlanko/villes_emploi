@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:background="@color/background_color1">
+    android:layout_height="200dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/head_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello"
-        android:textColor="@color/font_color3"
-        android:textSize="@dimen/h2"
+        android:textAllCaps="true"
+        android:textColor="@color/talentColor1"
+        android:textSize="@dimen/h2.5"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:textAlignment="center"/>
 
 </LinearLayout>

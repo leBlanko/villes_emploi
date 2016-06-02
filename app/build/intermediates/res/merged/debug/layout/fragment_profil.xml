@@ -9,43 +9,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <TextView
-                android:id="@+id/titleProfil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/titleProfil"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/font_color1"
-                android:textStyle="italic"
-                android:textAllCaps="true"
-                android:letterSpacing="5"
-                android:textSize="@dimen/h2"/>
+            android:orientation="vertical"
+            android:background="@color/gray">
 
 
             <WebView
                 android:id="@+id/descProfil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/descProfil"
-                android:textColor="@color/font_color1"
-                android:textSize="@dimen/h3" />
-
-            <Button
-                android:id="@+id/coachSubmit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:background="@drawable/button_default3"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
-                android:text="@string/head_coach"
-                android:textSize="@dimen/h3"
-                android:textColor="@color/font_color3"
-                android:layout_marginBottom="20dp"/>
+                android:text="@string/descProfil"/>
 
             <ExpandableListView
                 android:id="@+id/expand_1"

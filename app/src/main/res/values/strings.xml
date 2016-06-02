@@ -107,14 +107,21 @@
     <string name="askMetier">Entrez un métier</string>
     <string name="askVille">Entrez une ville</string>
 
+    <string name="bilan_title">Un bilan personnalisé d\'orientation</string>
+    <string name="bilan_desc">Basé sur la méthode TRICAM ® , le test que vous avez passé permet aux conseillers de la Maison de l\'orientation d\'établir votre bilan d\'orientation personnalisé. Ce bilan vous permet de faire
+    le point sur vos motivations, vous atouts et éventuellement vos faiblesses. Il vous indique en complément vos meilleures chances de réussite par rapport à 1000 métiers.
+    Il vous permettra avec l\'aide de votre coach en ligne de peaufiner votre CVmap ® en trouvant les bons arguments pour appuyer vos motivations. Enfin, il vous aide à préparer vos entretiens de sélection pour une entrée en formation ou à un entretien d\'embauche.</string>
+
     <string-array name="head_titles">
         <item name="head_strong_point">Mes points forts</item>
         <item name="head_best_words">Mes verbes préférés</item>
-        <item name="head_better_task">Les tâches où j\'excelle</item>
+        <item name="head_better_task">Taches où j\'excelle</item>
         <item name="head_personnal_advice">Conseils personnels</item>
+        <item name="head_coach">Mon bilan personnel coach</item>
     </string-array>
 
     <string name="head_coach">Mon coach</string>
+    <string name="bilanperso">Mon bilan personnel coach</string>
 
     <string name="res_pseudo">BlanKo</string>
     <string name="res_password">******</string>
